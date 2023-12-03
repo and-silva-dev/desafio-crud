@@ -7,12 +7,12 @@ import org.springframework.stereotype.Service;
 
 import br.com.crud.desafiocrud.dto.UsuarioDTO;
 import br.com.crud.desafiocrud.entity.UsuarioEntity;
-import br.com.crud.desafiocrud.repository.UsuarioRepository;
+import br.com.crud.desafiocrud.repository.UsuarioRepositorio;
 
 @Service
 public class UsuarioService {
 	@Autowired
-	private UsuarioRepository usuarioRepository;
+	private UsuarioRepositorio usuarioRepository;
 	
 	
 	public List<UsuarioDTO> listarTodos(){

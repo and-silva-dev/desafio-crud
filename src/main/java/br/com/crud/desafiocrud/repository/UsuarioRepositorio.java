@@ -4,7 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import br.com.crud.desafiocrud.entity.UsuarioEntity;
 
-public interface UsuarioRepository extends JpaRepository<UsuarioEntity, Long> {
+public interface UsuarioRepositorio extends JpaRepository<UsuarioEntity, Long> {
 
 	
 
